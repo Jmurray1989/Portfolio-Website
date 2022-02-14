@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/58705097/153935773-a436cc1a-4d6a-4f30-b73b-e54817677e54.png)
+![image](https://github.com/Jmurray1989/Portfolio-Website/blob/main/assets/img/jmlogo.png)
 
 
 # My Portfolio Website
