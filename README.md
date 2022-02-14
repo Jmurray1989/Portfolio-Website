@@ -1,10 +1,11 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![image](https://user-images.githubusercontent.com/58705097/153935773-a436cc1a-4d6a-4f30-b73b-e54817677e54.png)
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# My Portfolio Website
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This has been now two years in the making, I took a very long extended break away from coding to focus on other parts of my career. I didnt expect to take such a long break but we all know that famous disease thats going round, Whats it called? Oh yeah COVID, But i am glad to finally say
+
+### I AM BACK!!
 
 ## Gitpod Reminders
 
