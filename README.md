@@ -7,6 +7,8 @@ This has been now two years in the making, I took a very long extended break awa
 
 ### I AM BACK!!
 
+I needed a fresher course as it has been so long and with the help from the Scrimba course on building your portfolio I was able to create my own portfolio.
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
