@@ -5,27 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Murray Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <!--load all Font Awesome styles -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/837a9d992d.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="#">
+
+
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <img src="" alt="">
+            <img src="static/img/jmlogo.png" alt="">
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">My Work</a></li>
-
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
             </ul>
         </nav>
     </header>
@@ -36,12 +40,13 @@
             Hi, I am <strong>John Murray</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-        <img src="static/img/me.jfif" alt="">
+        <img src="static/img/me.jfif" alt="a picture of me">
     </section>
+
 
     <!-- My services -->
     <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I do</h2>
+        <h2 class="section-title section-title-services">What I do</h2>
         <div class="services">
             <div class="service">
                 <h3>Design + Development</h3>
@@ -67,6 +72,71 @@
 
         <a href="#work" class="btn">My Work</a>
     </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section-title section-title-about">Who I am</h2>
+        <p class="section-subtitle section-subtitle-about"></p>
+
+        <div class="about-me-body">
+            <p></p>
+            <p></p>
+        </div>
+
+        <img src="" alt="">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section-title">My work</h2>
+        <p class="section-subtitle"></p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="#" class="portfolio__item">
+                <img src="" alt="" class="portfolio-img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="#" class="portfolio-item">
+                <img src="" alt="" class="portfolio-img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="#" class="portfolio-item">
+                <img src="" alt="" class="portfolio-img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="#" class="portfolio-item">
+                <img src="" alt="" class="portfolio-img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="#" class="portfolio-item">
+                <img src="" alt="" class="portfolio-img">
+            </a>
+
+            <!-- Portfolio item 06 -->
+            <a href="#" class="portfolio-item">
+                <img src="" alt="" class="portfolio-img">
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <!-- replace with your own email address -->
+        <a href="mailto:jmurray1989@hotmail.com" class="footer-link">jmurray1989@hotmail.com</a>
+        <ul class="social-list">
+            <li class="social-list-item"><a class="social-list__link" href="#">a</a></li>
+            <li class="social-list-item">b<a class="social-list__link" href="#"></a></li>
+            <li class="social-list-item"><a class="social-list__link" href="#">c</a></li>
+            <li class="social-list-item"><a class="social-list__link" href="#">d</a></li>
+        </ul>
+    </footer>
 
 </body>
 
