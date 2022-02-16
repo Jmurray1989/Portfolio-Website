@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties*/
+/* Custom Properties, update these for your own design */
 
 :root {
-    --ff-primary: 'Lobster', sans-serif;
+    --ff-primary: 'Cormorant Garamond', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
     
     --fw-reg: 300;
     --fw-bold: 900;
+    
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -22,7 +26,8 @@
 /* General styles */
 
 body {
-    
+    background: var(--clr-light);
+    color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -33,6 +38,7 @@ img {
     display: block;
     max-width: 100%;
 }
+
 
 /* Typography */
 
@@ -47,6 +53,28 @@ h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
 
+strong { 
+    font-weight: var(--fw-bold) 
+}
+
+
+.section-title {
+    margin-bottom: .25em;
+}
+
+.section-subtitle {
+    margin: 0;
+    font-size: var(--fs-h3);
+}
+
+.section-subtitle-intro,
+.section-subtitle-about {
+    background: var(--clr-accent);
+    font-family: var(--ff-secondary);
+    
+}
+
+/* Media Queries - Settings for mobile devices */
 
 @media (min-width: 800px) {
     :root {
